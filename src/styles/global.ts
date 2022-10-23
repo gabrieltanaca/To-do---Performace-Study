@@ -9,13 +9,13 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background: #202020;
+    background: #160f29;
     -webkit-font-smoothing: antialiased;
-    color: #ffffff;
+    color: #fcfffd;
   }
   
   body, input, button {
-    font: 400 16px 'Poppins', sans-serif;
+    font: 400 16px  'Poppins', sans-serif;
   }
 
   h1 {

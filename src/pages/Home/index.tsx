@@ -1,12 +1,13 @@
 import React from "react";
 
 import { Container } from "./styles";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <Container>
       <h1>Welcome to Simple TO-DO!</h1>
-      <button>Go to Todo Page! {"=>"}</button>
+      <Link to={"todo"}>Go to Todo Page! {"=>"}</Link>
     </Container>
   );
 }
